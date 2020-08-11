@@ -1,6 +1,12 @@
-# sudoku-solver
-Using Python trying to solve the sudoku problems
+# sudoku-solver-using computer vision
 
-This solution is based on using backtracking algorithms to solve sudoku.
+What we are trying to achieve is solve sudoku by capturing a image of a puzzle.
 
-By passing the input in the format of list, the algorithm will try to guess each empty slots.
+To achieve this following steps are being followed :
+
+Step 1: Load the sudoku puzzle image
+Step 2: Fetch the puzzle part alone from the image.
+Step 3: Isolate each cells of the puzzle seperately
+step 4: Using Machine learning to predict the number in each cells.
+step 5: By using the number prdicted, solve the puzzlee using backtacking algorithm.
+Step 5: Project the output in the image.
